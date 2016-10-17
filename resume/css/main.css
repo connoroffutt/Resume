@@ -1,0 +1,85 @@
+html {
+  background: url("/users/connoroffutt/desktop/FED-bitmaker/fedw01/background1.jpg");
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  background: url("/users/connoroffutt/desktop/FED-bitmaker/fedw01/background2.png");
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-color: #
+  margin-left: 10;
+  margin-top: 10;
+  margin-right: 10;
+  margin-bottom: 10;
+}
+
+figure {
+  border-bottom-style:solid;
+  border-right-style:hidden;
+  border-left-style:hidden;
+  border-top-style:solid;
+  border-color: rgb(25, 10, 60);
+  border-width: 5px;
+}
+
+
+h2 {
+  font-size: 20px;
+  color: rgb(160, 160, 160);
+  background-color: rgb(38, 23, 74);
+}
+
+h3 {
+  font-size: 18px;
+  color: rgba(60, 35, 105, 1);
+}
+
+strong {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+em {
+font-size: 18px;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+div {
+  font-size: 14px;
+}
+
+.container {
+  width: 100%;
+
+}
+
+@media (min-width: 720px) {
+  body {
+    background-color: rgb(200,200,200);
+  }
+}
+  .container {
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.highlight {
+  color: rgb(0, 255, 33);
+}
+
+.light {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 16px;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.85);
+}
